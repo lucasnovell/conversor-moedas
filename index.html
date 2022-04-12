@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de moedas | ImersãoDevAlura</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de moedas<br>(Dolar/Real)
+  </h1>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <label for="moeda">Insira o valor em Dolar U$<br>
+    <input type="number" id="dolar" size="2" /><br>
+    <button type="submit" onclick="ConverterParaReal()">Converter</button>
+    <h2 id="valorConvertidoEmReal"></h2>
+
+    <label for="moeda">Insira o valor em Real R$<br>
+      <input type="number" id="real" size="2" /><br>
+      <button type="submit" onclick="ConverterParaDolar()">Converter</button>
+      <h2 id="valorConvertidoEmDolar"></h2>
+      <div class="cotacao">
+        <p>*adotando dolar = 5 reais</p>
+      </div>
+</div>
+
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
